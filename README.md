@@ -1,5 +1,9 @@
 # YottaFlex AI Candidate Project - Seller Marketplace Ops Data Generator
 
+![YottaFlex Dashboard](file:///C:/Users/ROHIT/.gemini/antigravity-ide/brain/d342620f-63f4-4297-ba5f-4e32c46f6693/yottaflex_dashboard_1793209328993.png)
+
+[![AI usage](https://img.shields.io/badge/AI%20usage‑transparent‑brightgreen)](docs/AI_USAGE.md)  [![CI](https://github.com/padalarohit12/yottaflex-data-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/padalarohit12/yottaflex-data-generator/actions)
+
 ## Objective
 Deterministic synthetic data generator for seller service levels, order fulfillment, disputes, commissions and payout eligibility. All data is generated locally with fixed seed for reproducibility.
 
