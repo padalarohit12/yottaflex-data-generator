@@ -1,62 +1,82 @@
-# YottaFlex AI Candidate Project - Seller Marketplace Ops Data Generator
+# YottaFlex AI Candidate Project – Seller Marketplace Ops Data Generator
 
-![YottaFlex Dashboard](file:///C:/Users/ROHIT/.gemini/antigravity-ide/brain/d342620f-63f4-4297-ba5f-4e32c46f6693/yottaflex_dashboard_1793209328993.png)
+⚡️ Deterministic synthetic data generator for seller service levels, order fulfillment, disputes, commissions, and payout eligibility. All data is reproducible via a fixed seed.
 
-[![AI usage](https://img.shields.io/badge/AI%20usage‑transparent‑brightgreen)](docs/AI_USAGE.md)  [![CI](https://github.com/padalarohit12/yottaflex-data-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/padalarohit12/yottaflex-data-generator/actions)
+## 📑 Table of Contents
+- [✨ Objective](#-objective)
+- [🚀 Quick Start](#-quick-start)
+- [⚖️ Scale Options](#-scale-options)
+- [🔑 Key Features](#-key-features)
+- [📁 Project Structure](#-project-structure)
+- [🧪 Validation & Tests](#-validation--tests)
+- [🛠️ Development](#-development)
+- [🔐 Transparency](#-transparency)
+- [📄 License](#-license)
 
-## Objective
-Deterministic synthetic data generator for seller service levels, order fulfillment, disputes, commissions and payout eligibility. All data is generated locally with fixed seed for reproducibility.
+## ✨ Objective
+Generate deterministic synthetic data for a seller marketplace, covering:
+- Sellers, listings, customers, orders, order lines
+- Fulfillments (including split orders)
+- Reviews, disputes, commissions, payouts
+- Five labelled edge‑case anomalies (ground truth)
 
-## Quick Start
-
-### Setup
+## 🚀 Quick Start
 ```bash
+# Install Python dependencies
 pip install -r requirements.txt
-```
 
-### Generate Data (Full Scale)
-```bash
-python -m src.generate --seed 20261022 --scale full
-```
+# Install front‑end dependencies
+npm install --prefix frontend
 
-### Generate Data (Starter Scale for testing)
-```bash
-python -m src.generate --seed 20261022 --scale starter
-```
+# Generate full‑scale data (shows progress bars)
+python -u -m src.generate --seed 20261022 --scale full
 
-### Validate Existing Data
-```bash
+# Validate the generated data
 python -m src.validate --data-dir data/generated/full
+
+# Run the UI locally
+npm run dev --prefix frontend
 ```
 
-## Scale
-- Full: 2000 sellers, 20000 listings, 100000 orders, 10000 disputes
-- Starter: 200 sellers, 2000 listings, 10000 orders, 1000 disputes (for dev/testing)
+## ⚖️ Scale Options
+| Scale   | Sellers | Listings | Orders | Disputes |
+|---------|--------:|----------:|-------:|---------:|
+| **Full**   | 2 000 | 20 000 | 100 000 | 10 000 |
+| **Starter**|   200 |  2 000 | 10 000 | 1 000 |
 
-## Key Features
-- Deterministic generation with fixed seed (20261022)
-- All entities with proper PK/FK relationships
-- Split orders (multi-seller) modeled via FulfillmentLine bridge table
-- All 5 required edge cases injected as labelled anomalies
-- Ground truth strictly separated (never leaked to feature tables)
-- Full reconciliation and validation
-- Exports: CSV, JSON, SQL
-- Reproducible with checksums
+## 🔑 Key Features
+- 🎲 Deterministic generation with fixed seed (`20261022`)
+- 🔗 Full PK/FK relationship integrity
+- 🔀 Split orders via fulfillment‑line bridge
+- 🏷️ Five required edge‑case anomalies (ground‑truth separated)
+- 📦 Export formats: CSV, JSON, SQL (with checksums)
+- 🧪 Comprehensive validation suite
+- 🎨 Premium front‑end built with React + Vite (dark mode, glass‑morphism, micro‑animations)
 
-## Project Structure
+## 📁 Project Structure
 ```
-├── src/           # Generator source code
-├── schema/        # ERD, data dictionary, schema.json
-├── data/          # Generated data
-├── sql/           # SQL schema and seeds
-├── ground_truth/  # Anomaly labels (separate from features)
-├── prompts/       # AI prompt history (transparency)
-├── docs/          # Documentation
-└── tests/         # Validation tests
+src/            # Generator core
+frontend/       # React + Vite UI
+data/           # Generated data (CSV/JSON)
+schema/         # ERD & data dictionary
+ground_truth/   # Anomaly labels
+docs/           # Documentation (including AI_USAGE.md)
+tests/          # Validation tests
 ```
 
-## Transparency
-All AI prompts used are recorded in `prompts/` directory. See `docs/AI_USAGE.md` for details on where AI helped, was reviewed, modified, or validated.
+## 🧪 Validation & Tests
+```bash
+python -m src.validate --data-dir data/generated/full   # Validate full dataset
+pytest tests/                                          # Run unit tests
+```
 
-## License
-This is synthetic data generated for evaluation purposes only. No real PII.
+## 🛠️ Development
+- **Lint**: `ruff check src`
+- **CI**: GitHub Actions automatically run lint, tests, and UI build on each push.
+- **Docker**: Build with `docker build -t yottaflex .` and run `docker run yottaflex`.
+
+## 🔐 Transparency
+All AI‑assisted actions are documented in `docs/AI_USAGE.md`. The project adheres to strict reproducibility and data‑privacy standards.
+
+## 📄 License
+Synthetic data for evaluation purposes only. No real PII. See `LICENSE` for details.
