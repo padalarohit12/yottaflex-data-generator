@@ -1,0 +1,7 @@
+node_modules/
+frontend/dist/
+*.log
+*.txt
+.DS_Store
+.idea/
+.vscode/
