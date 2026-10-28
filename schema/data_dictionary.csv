@@ -1,0 +1,117 @@
+table,field,type,required,allowed_values,unique,notes
+Customer,customer_id,VARCHAR,TRUE,,TRUE,Primary key
+Customer,first_name,VARCHAR,TRUE,,FALSE,
+Customer,last_name,VARCHAR,TRUE,,FALSE,
+Customer,email,VARCHAR,TRUE,,FALSE,
+Customer,phone,VARCHAR,TRUE,,FALSE,
+Customer,city,VARCHAR,TRUE,"NYC|LA|SF|CHI|BOS",FALSE,
+Customer,country,VARCHAR,TRUE,US,FALSE,
+Customer,created_at,TIMESTAMP,TRUE,,FALSE,
+Customer,status,VARCHAR,TRUE,ACTIVE,FALSE,
+Seller,seller_id,VARCHAR,TRUE,,TRUE,Primary key
+Seller,business_name,VARCHAR,TRUE,,FALSE,
+Seller,email,VARCHAR,TRUE,,FALSE,
+Seller,status,VARCHAR,TRUE,ACTIVE|SUSPENDED,FALSE,
+Seller,effective_from,TIMESTAMP,TRUE,,FALSE,
+Seller,effective_to,TIMESTAMP,FALSE,,FALSE,
+Seller,rating,DECIMAL,TRUE,,FALSE,3.5-5.0
+Seller,created_at,TIMESTAMP,TRUE,,FALSE,
+CommissionRule,commission_rule_id,VARCHAR,TRUE,,TRUE,Primary key
+CommissionRule,category,VARCHAR,TRUE,ELECTRONICS|FASHION|HOME|BOOKS|TOYS,TRUE,
+CommissionRule,commission_rate,DECIMAL,TRUE,,FALSE,0.08-0.15
+CommissionRule,reserve_rate,DECIMAL,TRUE,,FALSE,0.05-0.10
+CommissionRule,effective_from,TIMESTAMP,TRUE,,FALSE,
+CommissionRule,effective_to,TIMESTAMP,FALSE,,FALSE,
+CommissionRule,is_active,BOOLEAN,TRUE,,FALSE,
+ProductListing,listing_id,VARCHAR,TRUE,,TRUE,Primary key
+ProductListing,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+ProductListing,commission_rule_id,VARCHAR,TRUE,,FALSE,FK->CommissionRule
+ProductListing,title,VARCHAR,TRUE,,FALSE,
+ProductListing,category,VARCHAR,TRUE,,FALSE,
+ProductListing,price,DECIMAL,TRUE,,FALSE,10-500
+ProductListing,status,VARCHAR,TRUE,ACTIVE|INACTIVE,FALSE,
+ProductListing,created_at,TIMESTAMP,TRUE,,FALSE,
+Order,order_id,VARCHAR,TRUE,,TRUE,Primary key
+Order,customer_id,VARCHAR,TRUE,,FALSE,FK->Customer
+Order,status,VARCHAR,TRUE,CONFIRMED|COMPLETED,FALSE,
+Order,created_at,TIMESTAMP,TRUE,,FALSE,
+Order,confirmed_at,TIMESTAMP,TRUE,,FALSE,
+Order,completed_at,TIMESTAMP,FALSE,,FALSE,
+Order,currency,VARCHAR,TRUE,USD,FALSE,
+Order,subtotal,DECIMAL,TRUE,,FALSE,Computed
+OrderLine,order_line_id,VARCHAR,TRUE,,TRUE,Primary key
+OrderLine,order_id,VARCHAR,TRUE,,FALSE,FK->Order
+OrderLine,listing_id,VARCHAR,TRUE,,FALSE,FK->ProductListing
+OrderLine,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+OrderLine,quantity,INTEGER,TRUE,,FALSE,1-3
+OrderLine,unit_price,DECIMAL,TRUE,,FALSE,
+OrderLine,line_total,DECIMAL,TRUE,,FALSE,
+Fulfillment,fulfillment_id,VARCHAR,TRUE,,TRUE,Primary key
+Fulfillment,order_id,VARCHAR,TRUE,,FALSE,FK->Order
+Fulfillment,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+Fulfillment,status,VARCHAR,TRUE,DELIVERED|RETURNED,FALSE,
+Fulfillment,created_at,TIMESTAMP,TRUE,,FALSE,
+Fulfillment,promised_ship_by,TIMESTAMP,TRUE,,FALSE,
+Fulfillment,shipped_at,TIMESTAMP,TRUE,,FALSE,
+Fulfillment,delivered_at,TIMESTAMP,TRUE,,FALSE,
+Fulfillment,returned_at,TIMESTAMP,FALSE,,FALSE,
+Fulfillment,is_late_shipment,BOOLEAN,TRUE,,FALSE,
+FulfillmentLine,fulfillment_line_id,VARCHAR,TRUE,,TRUE,Primary key
+FulfillmentLine,fulfillment_id,VARCHAR,TRUE,,FALSE,FK->Fulfillment
+FulfillmentLine,order_line_id,VARCHAR,TRUE,,FALSE,FK->OrderLine
+FulfillmentLine,quantity,INTEGER,TRUE,,FALSE,
+CustomerReview,review_id,VARCHAR,TRUE,,TRUE,Primary key
+CustomerReview,order_id,VARCHAR,TRUE,,FALSE,FK->Order
+CustomerReview,order_line_id,VARCHAR,TRUE,,FALSE,FK->OrderLine
+CustomerReview,customer_id,VARCHAR,TRUE,,FALSE,FK->Customer
+CustomerReview,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+CustomerReview,rating,INTEGER,TRUE,1|2|3|4|5,FALSE,
+CustomerReview,comment,VARCHAR,TRUE,,FALSE,
+CustomerReview,created_at,TIMESTAMP,TRUE,,FALSE,
+Dispute,dispute_id,VARCHAR,TRUE,,TRUE,Primary key
+Dispute,order_id,VARCHAR,TRUE,,FALSE,FK->Order
+Dispute,fulfillment_id,VARCHAR,TRUE,,FALSE,FK->Fulfillment
+Dispute,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+Dispute,customer_id,VARCHAR,TRUE,,FALSE,FK->Customer
+Dispute,reason,VARCHAR,TRUE,NOT_RECEIVED|DAMAGED|WRONG_ITEM|NOT_AS_DESCRIBED,FALSE,
+Dispute,amount,DECIMAL,TRUE,,FALSE,20-200
+Dispute,status,VARCHAR,TRUE,OPEN|UNDER_REVIEW|RESOLVED_SELLER|RESOLVED_CUSTOMER|CHARGEBACK,FALSE,
+Dispute,created_at,TIMESTAMP,TRUE,,FALSE,
+Dispute,resolved_at,TIMESTAMP,FALSE,,FALSE,
+Payout,payout_id,VARCHAR,TRUE,,TRUE,Primary key
+Payout,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+Payout,period_start,DATE,TRUE,,FALSE,
+Payout,period_end,DATE,TRUE,,FALSE,
+Payout,payout_date,DATE,TRUE,,FALSE,
+Payout,status,VARCHAR,TRUE,PENDING|ELIGIBLE|PAID,FALSE,
+Payout,total_amount,DECIMAL,TRUE,,FALSE,Sum of PayoutLine.net_amount
+Payout,currency,VARCHAR,TRUE,USD,FALSE,
+PayoutLine,payout_line_id,VARCHAR,TRUE,,TRUE,Primary key
+PayoutLine,payout_id,VARCHAR,TRUE,,FALSE,FK->Payout
+PayoutLine,order_id,VARCHAR,TRUE,,FALSE,FK->Order
+PayoutLine,order_line_id,VARCHAR,TRUE,,FALSE,FK->OrderLine
+PayoutLine,fulfillment_id,VARCHAR,TRUE,,FALSE,FK->Fulfillment
+PayoutLine,seller_id,VARCHAR,TRUE,,FALSE,FK->Seller
+PayoutLine,gross_amount,DECIMAL,TRUE,,FALSE,
+PayoutLine,commission_amount,DECIMAL,TRUE,,FALSE,
+PayoutLine,reserve_amount,DECIMAL,TRUE,,FALSE,
+PayoutLine,refund_amount,DECIMAL,TRUE,,FALSE,
+PayoutLine,adjustment_amount,DECIMAL,TRUE,,FALSE,
+PayoutLine,net_amount,DECIMAL,TRUE,,FALSE,gross-commission-reserve-refund+adjustment
+PayoutLine,status,VARCHAR,TRUE,ELIGIBLE|HELD,FALSE,
+PayoutLine,eligible_at,TIMESTAMP,TRUE,,FALSE,delivery + hold window
+StateChangeEvent,event_id,INTEGER,TRUE,,TRUE,Primary key (SERIAL)
+StateChangeEvent,entity_type,VARCHAR,TRUE,,FALSE,
+StateChangeEvent,entity_id,VARCHAR,TRUE,,FALSE,
+StateChangeEvent,from_state,VARCHAR,FALSE,,FALSE,
+StateChangeEvent,to_state,VARCHAR,TRUE,,FALSE,
+StateChangeEvent,reason,VARCHAR,FALSE,,FALSE,
+StateChangeEvent,occurred_at,TIMESTAMP,TRUE,,FALSE,
+GroundTruth,ground_truth_id,VARCHAR,TRUE,,TRUE,Primary key
+GroundTruth,entity_type,VARCHAR,TRUE,,FALSE,
+GroundTruth,entity_id,VARCHAR,TRUE,,FALSE,
+GroundTruth,issue_type,VARCHAR,TRUE,,FALSE,
+GroundTruth,expected_decision,VARCHAR,TRUE,,FALSE,
+GroundTruth,rule_ref,VARCHAR,TRUE,,FALSE,
+GroundTruth,explanation,VARCHAR,TRUE,,FALSE,
+GroundTruth,severity,VARCHAR,TRUE,HIGH|MEDIUM|LOW,FALSE,

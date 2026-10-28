@@ -1,0 +1,2002 @@
+[
+  {
+    "seller_id": "SELL-000001",
+    "business_name": "SellerBusiness0",
+    "email": "seller0@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.67,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000002",
+    "business_name": "SellerBusiness1",
+    "email": "seller1@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.88,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000003",
+    "business_name": "SellerBusiness2",
+    "email": "seller2@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.31,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000004",
+    "business_name": "SellerBusiness3",
+    "email": "seller3@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.99,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000005",
+    "business_name": "SellerBusiness4",
+    "email": "seller4@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.34,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000006",
+    "business_name": "SellerBusiness5",
+    "email": "seller5@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.73,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000007",
+    "business_name": "SellerBusiness6",
+    "email": "seller6@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.95,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000008",
+    "business_name": "SellerBusiness7",
+    "email": "seller7@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.35,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000009",
+    "business_name": "SellerBusiness8",
+    "email": "seller8@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.82,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000010",
+    "business_name": "SellerBusiness9",
+    "email": "seller9@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.44,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000011",
+    "business_name": "SellerBusiness10",
+    "email": "seller10@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.75,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000012",
+    "business_name": "SellerBusiness11",
+    "email": "seller11@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.03,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000013",
+    "business_name": "SellerBusiness12",
+    "email": "seller12@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.55,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000014",
+    "business_name": "SellerBusiness13",
+    "email": "seller13@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.64,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000015",
+    "business_name": "SellerBusiness14",
+    "email": "seller14@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.76,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000016",
+    "business_name": "SellerBusiness15",
+    "email": "seller15@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000017",
+    "business_name": "SellerBusiness16",
+    "email": "seller16@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.35,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000018",
+    "business_name": "SellerBusiness17",
+    "email": "seller17@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.87,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000019",
+    "business_name": "SellerBusiness18",
+    "email": "seller18@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.94,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000020",
+    "business_name": "SellerBusiness19",
+    "email": "seller19@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.76,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000021",
+    "business_name": "SellerBusiness20",
+    "email": "seller20@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.65,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000022",
+    "business_name": "SellerBusiness21",
+    "email": "seller21@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.94,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000023",
+    "business_name": "SellerBusiness22",
+    "email": "seller22@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.71,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000024",
+    "business_name": "SellerBusiness23",
+    "email": "seller23@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.3,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000025",
+    "business_name": "SellerBusiness24",
+    "email": "seller24@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.57,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000026",
+    "business_name": "SellerBusiness25",
+    "email": "seller25@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.57,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000027",
+    "business_name": "SellerBusiness26",
+    "email": "seller26@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.57,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000028",
+    "business_name": "SellerBusiness27",
+    "email": "seller27@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.73,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000029",
+    "business_name": "SellerBusiness28",
+    "email": "seller28@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.62,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000030",
+    "business_name": "SellerBusiness29",
+    "email": "seller29@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.15,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000031",
+    "business_name": "SellerBusiness30",
+    "email": "seller30@example.com",
+    "status": "SUSPENDED",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.95,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000032",
+    "business_name": "SellerBusiness31",
+    "email": "seller31@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.67,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000033",
+    "business_name": "SellerBusiness32",
+    "email": "seller32@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.73,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000034",
+    "business_name": "SellerBusiness33",
+    "email": "seller33@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.89,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000035",
+    "business_name": "SellerBusiness34",
+    "email": "seller34@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.77,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000036",
+    "business_name": "SellerBusiness35",
+    "email": "seller35@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.15,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000037",
+    "business_name": "SellerBusiness36",
+    "email": "seller36@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.7,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000038",
+    "business_name": "SellerBusiness37",
+    "email": "seller37@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.36,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000039",
+    "business_name": "SellerBusiness38",
+    "email": "seller38@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.22,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000040",
+    "business_name": "SellerBusiness39",
+    "email": "seller39@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.82,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000041",
+    "business_name": "SellerBusiness40",
+    "email": "seller40@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.95,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000042",
+    "business_name": "SellerBusiness41",
+    "email": "seller41@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.21,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000043",
+    "business_name": "SellerBusiness42",
+    "email": "seller42@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.59,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000044",
+    "business_name": "SellerBusiness43",
+    "email": "seller43@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.85,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000045",
+    "business_name": "SellerBusiness44",
+    "email": "seller44@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.97,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000046",
+    "business_name": "SellerBusiness45",
+    "email": "seller45@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.79,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000047",
+    "business_name": "SellerBusiness46",
+    "email": "seller46@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.87,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000048",
+    "business_name": "SellerBusiness47",
+    "email": "seller47@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.78,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000049",
+    "business_name": "SellerBusiness48",
+    "email": "seller48@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.24,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000050",
+    "business_name": "SellerBusiness49",
+    "email": "seller49@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.96,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000051",
+    "business_name": "SellerBusiness50",
+    "email": "seller50@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.82,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000052",
+    "business_name": "SellerBusiness51",
+    "email": "seller51@example.com",
+    "status": "SUSPENDED",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.43,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000053",
+    "business_name": "SellerBusiness52",
+    "email": "seller52@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.21,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000054",
+    "business_name": "SellerBusiness53",
+    "email": "seller53@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.3,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000055",
+    "business_name": "SellerBusiness54",
+    "email": "seller54@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000056",
+    "business_name": "SellerBusiness55",
+    "email": "seller55@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.05,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000057",
+    "business_name": "SellerBusiness56",
+    "email": "seller56@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.67,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000058",
+    "business_name": "SellerBusiness57",
+    "email": "seller57@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.08,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000059",
+    "business_name": "SellerBusiness58",
+    "email": "seller58@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.64,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000060",
+    "business_name": "SellerBusiness59",
+    "email": "seller59@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.99,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000061",
+    "business_name": "SellerBusiness60",
+    "email": "seller60@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000062",
+    "business_name": "SellerBusiness61",
+    "email": "seller61@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.02,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000063",
+    "business_name": "SellerBusiness62",
+    "email": "seller62@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.75,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000064",
+    "business_name": "SellerBusiness63",
+    "email": "seller63@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.11,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000065",
+    "business_name": "SellerBusiness64",
+    "email": "seller64@example.com",
+    "status": "SUSPENDED",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.53,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000066",
+    "business_name": "SellerBusiness65",
+    "email": "seller65@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.36,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000067",
+    "business_name": "SellerBusiness66",
+    "email": "seller66@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.97,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000068",
+    "business_name": "SellerBusiness67",
+    "email": "seller67@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.7,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000069",
+    "business_name": "SellerBusiness68",
+    "email": "seller68@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.55,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000070",
+    "business_name": "SellerBusiness69",
+    "email": "seller69@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.65,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000071",
+    "business_name": "SellerBusiness70",
+    "email": "seller70@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.98,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000072",
+    "business_name": "SellerBusiness71",
+    "email": "seller71@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.93,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000073",
+    "business_name": "SellerBusiness72",
+    "email": "seller72@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.78,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000074",
+    "business_name": "SellerBusiness73",
+    "email": "seller73@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.92,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000075",
+    "business_name": "SellerBusiness74",
+    "email": "seller74@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.88,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000076",
+    "business_name": "SellerBusiness75",
+    "email": "seller75@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.96,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000077",
+    "business_name": "SellerBusiness76",
+    "email": "seller76@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.69,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000078",
+    "business_name": "SellerBusiness77",
+    "email": "seller77@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.2,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000079",
+    "business_name": "SellerBusiness78",
+    "email": "seller78@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.75,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000080",
+    "business_name": "SellerBusiness79",
+    "email": "seller79@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.77,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000081",
+    "business_name": "SellerBusiness80",
+    "email": "seller80@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.88,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000082",
+    "business_name": "SellerBusiness81",
+    "email": "seller81@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.79,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000083",
+    "business_name": "SellerBusiness82",
+    "email": "seller82@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.09,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000084",
+    "business_name": "SellerBusiness83",
+    "email": "seller83@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.58,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000085",
+    "business_name": "SellerBusiness84",
+    "email": "seller84@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.6,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000086",
+    "business_name": "SellerBusiness85",
+    "email": "seller85@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.53,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000087",
+    "business_name": "SellerBusiness86",
+    "email": "seller86@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.49,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000088",
+    "business_name": "SellerBusiness87",
+    "email": "seller87@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.59,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000089",
+    "business_name": "SellerBusiness88",
+    "email": "seller88@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.42,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000090",
+    "business_name": "SellerBusiness89",
+    "email": "seller89@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.63,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000091",
+    "business_name": "SellerBusiness90",
+    "email": "seller90@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.21,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000092",
+    "business_name": "SellerBusiness91",
+    "email": "seller91@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.79,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000093",
+    "business_name": "SellerBusiness92",
+    "email": "seller92@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.97,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000094",
+    "business_name": "SellerBusiness93",
+    "email": "seller93@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.37,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000095",
+    "business_name": "SellerBusiness94",
+    "email": "seller94@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.07,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000096",
+    "business_name": "SellerBusiness95",
+    "email": "seller95@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.62,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000097",
+    "business_name": "SellerBusiness96",
+    "email": "seller96@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.46,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000098",
+    "business_name": "SellerBusiness97",
+    "email": "seller97@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.2,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000099",
+    "business_name": "SellerBusiness98",
+    "email": "seller98@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.6,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000100",
+    "business_name": "SellerBusiness99",
+    "email": "seller99@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.73,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000101",
+    "business_name": "SellerBusiness100",
+    "email": "seller100@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.16,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000102",
+    "business_name": "SellerBusiness101",
+    "email": "seller101@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.92,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000103",
+    "business_name": "SellerBusiness102",
+    "email": "seller102@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.75,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000104",
+    "business_name": "SellerBusiness103",
+    "email": "seller103@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.09,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000105",
+    "business_name": "SellerBusiness104",
+    "email": "seller104@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.83,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000106",
+    "business_name": "SellerBusiness105",
+    "email": "seller105@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.68,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000107",
+    "business_name": "SellerBusiness106",
+    "email": "seller106@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.62,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000108",
+    "business_name": "SellerBusiness107",
+    "email": "seller107@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.64,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000109",
+    "business_name": "SellerBusiness108",
+    "email": "seller108@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.21,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000110",
+    "business_name": "SellerBusiness109",
+    "email": "seller109@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.64,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000111",
+    "business_name": "SellerBusiness110",
+    "email": "seller110@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.4,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000112",
+    "business_name": "SellerBusiness111",
+    "email": "seller111@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.83,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000113",
+    "business_name": "SellerBusiness112",
+    "email": "seller112@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.92,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000114",
+    "business_name": "SellerBusiness113",
+    "email": "seller113@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.31,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000115",
+    "business_name": "SellerBusiness114",
+    "email": "seller114@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000116",
+    "business_name": "SellerBusiness115",
+    "email": "seller115@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.92,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000117",
+    "business_name": "SellerBusiness116",
+    "email": "seller116@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.86,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000118",
+    "business_name": "SellerBusiness117",
+    "email": "seller117@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.78,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000119",
+    "business_name": "SellerBusiness118",
+    "email": "seller118@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.88,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000120",
+    "business_name": "SellerBusiness119",
+    "email": "seller119@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.5,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000121",
+    "business_name": "SellerBusiness120",
+    "email": "seller120@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.98,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000122",
+    "business_name": "SellerBusiness121",
+    "email": "seller121@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.49,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000123",
+    "business_name": "SellerBusiness122",
+    "email": "seller122@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.86,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000124",
+    "business_name": "SellerBusiness123",
+    "email": "seller123@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.05,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000125",
+    "business_name": "SellerBusiness124",
+    "email": "seller124@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.59,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000126",
+    "business_name": "SellerBusiness125",
+    "email": "seller125@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.34,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000127",
+    "business_name": "SellerBusiness126",
+    "email": "seller126@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.85,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000128",
+    "business_name": "SellerBusiness127",
+    "email": "seller127@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.74,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000129",
+    "business_name": "SellerBusiness128",
+    "email": "seller128@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.24,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000130",
+    "business_name": "SellerBusiness129",
+    "email": "seller129@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.96,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000131",
+    "business_name": "SellerBusiness130",
+    "email": "seller130@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.39,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000132",
+    "business_name": "SellerBusiness131",
+    "email": "seller131@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.74,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000133",
+    "business_name": "SellerBusiness132",
+    "email": "seller132@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.98,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000134",
+    "business_name": "SellerBusiness133",
+    "email": "seller133@example.com",
+    "status": "SUSPENDED",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.46,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000135",
+    "business_name": "SellerBusiness134",
+    "email": "seller134@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.57,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000136",
+    "business_name": "SellerBusiness135",
+    "email": "seller135@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.54,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000137",
+    "business_name": "SellerBusiness136",
+    "email": "seller136@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.49,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000138",
+    "business_name": "SellerBusiness137",
+    "email": "seller137@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.89,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000139",
+    "business_name": "SellerBusiness138",
+    "email": "seller138@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.41,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000140",
+    "business_name": "SellerBusiness139",
+    "email": "seller139@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.82,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000141",
+    "business_name": "SellerBusiness140",
+    "email": "seller140@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.54,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000142",
+    "business_name": "SellerBusiness141",
+    "email": "seller141@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.69,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000143",
+    "business_name": "SellerBusiness142",
+    "email": "seller142@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.67,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000144",
+    "business_name": "SellerBusiness143",
+    "email": "seller143@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.84,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000145",
+    "business_name": "SellerBusiness144",
+    "email": "seller144@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.41,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000146",
+    "business_name": "SellerBusiness145",
+    "email": "seller145@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.62,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000147",
+    "business_name": "SellerBusiness146",
+    "email": "seller146@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000148",
+    "business_name": "SellerBusiness147",
+    "email": "seller147@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.93,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000149",
+    "business_name": "SellerBusiness148",
+    "email": "seller148@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.87,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000150",
+    "business_name": "SellerBusiness149",
+    "email": "seller149@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.28,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000151",
+    "business_name": "SellerBusiness150",
+    "email": "seller150@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.7,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000152",
+    "business_name": "SellerBusiness151",
+    "email": "seller151@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.14,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000153",
+    "business_name": "SellerBusiness152",
+    "email": "seller152@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.15,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000154",
+    "business_name": "SellerBusiness153",
+    "email": "seller153@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.95,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000155",
+    "business_name": "SellerBusiness154",
+    "email": "seller154@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.45,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000156",
+    "business_name": "SellerBusiness155",
+    "email": "seller155@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.51,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000157",
+    "business_name": "SellerBusiness156",
+    "email": "seller156@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.15,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000158",
+    "business_name": "SellerBusiness157",
+    "email": "seller157@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.79,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000159",
+    "business_name": "SellerBusiness158",
+    "email": "seller158@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.55,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000160",
+    "business_name": "SellerBusiness159",
+    "email": "seller159@example.com",
+    "status": "SUSPENDED",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.08,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000161",
+    "business_name": "SellerBusiness160",
+    "email": "seller160@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.94,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000162",
+    "business_name": "SellerBusiness161",
+    "email": "seller161@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.73,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000163",
+    "business_name": "SellerBusiness162",
+    "email": "seller162@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.6,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000164",
+    "business_name": "SellerBusiness163",
+    "email": "seller163@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.79,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000165",
+    "business_name": "SellerBusiness164",
+    "email": "seller164@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.04,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000166",
+    "business_name": "SellerBusiness165",
+    "email": "seller165@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.76,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000167",
+    "business_name": "SellerBusiness166",
+    "email": "seller166@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000168",
+    "business_name": "SellerBusiness167",
+    "email": "seller167@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.06,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000169",
+    "business_name": "SellerBusiness168",
+    "email": "seller168@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.27,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000170",
+    "business_name": "SellerBusiness169",
+    "email": "seller169@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.32,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000171",
+    "business_name": "SellerBusiness170",
+    "email": "seller170@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.6,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000172",
+    "business_name": "SellerBusiness171",
+    "email": "seller171@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.05,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000173",
+    "business_name": "SellerBusiness172",
+    "email": "seller172@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.21,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000174",
+    "business_name": "SellerBusiness173",
+    "email": "seller173@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.75,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000175",
+    "business_name": "SellerBusiness174",
+    "email": "seller174@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.68,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000176",
+    "business_name": "SellerBusiness175",
+    "email": "seller175@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.5,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000177",
+    "business_name": "SellerBusiness176",
+    "email": "seller176@example.com",
+    "status": "SUSPENDED",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.87,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000178",
+    "business_name": "SellerBusiness177",
+    "email": "seller177@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.28,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000179",
+    "business_name": "SellerBusiness178",
+    "email": "seller178@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.28,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000180",
+    "business_name": "SellerBusiness179",
+    "email": "seller179@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.95,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000181",
+    "business_name": "SellerBusiness180",
+    "email": "seller180@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.65,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000182",
+    "business_name": "SellerBusiness181",
+    "email": "seller181@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.84,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000183",
+    "business_name": "SellerBusiness182",
+    "email": "seller182@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.33,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000184",
+    "business_name": "SellerBusiness183",
+    "email": "seller183@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.94,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000185",
+    "business_name": "SellerBusiness184",
+    "email": "seller184@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.74,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000186",
+    "business_name": "SellerBusiness185",
+    "email": "seller185@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.1,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000187",
+    "business_name": "SellerBusiness186",
+    "email": "seller186@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.91,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000188",
+    "business_name": "SellerBusiness187",
+    "email": "seller187@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.56,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000189",
+    "business_name": "SellerBusiness188",
+    "email": "seller188@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.65,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000190",
+    "business_name": "SellerBusiness189",
+    "email": "seller189@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.88,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000191",
+    "business_name": "SellerBusiness190",
+    "email": "seller190@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.45,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000192",
+    "business_name": "SellerBusiness191",
+    "email": "seller191@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.97,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000193",
+    "business_name": "SellerBusiness192",
+    "email": "seller192@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.48,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000194",
+    "business_name": "SellerBusiness193",
+    "email": "seller193@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.95,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000195",
+    "business_name": "SellerBusiness194",
+    "email": "seller194@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.81,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000196",
+    "business_name": "SellerBusiness195",
+    "email": "seller195@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.8,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000197",
+    "business_name": "SellerBusiness196",
+    "email": "seller196@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.62,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000198",
+    "business_name": "SellerBusiness197",
+    "email": "seller197@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.68,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000199",
+    "business_name": "SellerBusiness198",
+    "email": "seller198@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 4.98,
+    "created_at": "2025-01-01T00:00:00"
+  },
+  {
+    "seller_id": "SELL-000200",
+    "business_name": "SellerBusiness199",
+    "email": "seller199@example.com",
+    "status": "ACTIVE",
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "rating": 3.7,
+    "created_at": "2025-01-01T00:00:00"
+  }
+]

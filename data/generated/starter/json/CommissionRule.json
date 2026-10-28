@@ -1,0 +1,47 @@
+[
+  {
+    "commission_rule_id": "CMR-2026-000001",
+    "category": "ELECTRONICS",
+    "commission_rate": 0.0815,
+    "reserve_rate": 0.0954,
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "is_active": true
+  },
+  {
+    "commission_rule_id": "CMR-2026-000002",
+    "category": "FASHION",
+    "commission_rate": 0.1043,
+    "reserve_rate": 0.066,
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "is_active": true
+  },
+  {
+    "commission_rule_id": "CMR-2026-000003",
+    "category": "HOME",
+    "commission_rate": 0.0901,
+    "reserve_rate": 0.0977,
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "is_active": true
+  },
+  {
+    "commission_rule_id": "CMR-2026-000004",
+    "category": "BOOKS",
+    "commission_rate": 0.085,
+    "reserve_rate": 0.076,
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "is_active": true
+  },
+  {
+    "commission_rule_id": "CMR-2026-000005",
+    "category": "TOYS",
+    "commission_rate": 0.099,
+    "reserve_rate": 0.0864,
+    "effective_from": "2025-01-01T00:00:00",
+    "effective_to": null,
+    "is_active": true
+  }
+]

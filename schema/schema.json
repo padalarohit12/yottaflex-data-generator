@@ -1,0 +1,20 @@
+{
+  "name": "yottaflex_schema",
+  "version": "1.0",
+  "tables": [
+    {"name": "Customer", "pk": ["customer_id"]},
+    {"name": "Seller", "pk": ["seller_id"]},
+    {"name": "CommissionRule", "pk": ["commission_rule_id"]},
+    {"name": "ProductListing", "pk": ["listing_id"]},
+    {"name": "Order", "pk": ["order_id"]},
+    {"name": "OrderLine", "pk": ["order_line_id"]},
+    {"name": "Fulfillment", "pk": ["fulfillment_id"]},
+    {"name": "FulfillmentLine", "pk": ["fulfillment_line_id"]},
+    {"name": "CustomerReview", "pk": ["review_id"]},
+    {"name": "Dispute", "pk": ["dispute_id"]},
+    {"name": "Payout", "pk": ["payout_id"]},
+    {"name": "PayoutLine", "pk": ["payout_line_id"]},
+    {"name": "StateChangeEvent", "pk": ["event_id"]},
+    {"name": "GroundTruth", "pk": ["ground_truth_id"]}
+  ]
+}

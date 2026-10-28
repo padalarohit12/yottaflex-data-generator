@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-10-28T10:33:58.493090",
+  "seed": 20261022,
+  "scale": "starter",
+  "volumes": {
+    "sellers": 200,
+    "listings": 2000,
+    "orders": 10000,
+    "disputes": 1000
+  },
+  "files": [
+    {
+      "path": "data\\generated\\starter\\csv\\CommissionRule.csv",
+      "size_bytes": 413,
+      "sha256": "2b05ef200cf8c1ddda9ceba147eb7ebcc011f5a068a1d22e2d6d8a7487c2623d"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\Customer.csv",
+      "size_bytes": 1856827,
+      "sha256": "a195d3090164ef00a1b987a417dd172953b9fdd84717202756a2276216cfe549"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\CustomerReview.csv",
+      "size_bytes": 649703,
+      "sha256": "d52bd3acc0fa0bc5ae6ac76b86fc05bcf4dfd3ec0e266ca08d156d34d11879ae"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\Dispute.csv",
+      "size_bytes": 130317,
+      "sha256": "06f9e5fa8fa27c6ba6dd0398de5e9e71dae693ace9e543711118d319c34d76ef"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\Fulfillment.csv",
+      "size_bytes": 1696765,
+      "sha256": "e966479942bd1b19f2b2fbb0fc6ddd924c17acbef95cdff12f1b39abc399ff65"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\FulfillmentLine.csv",
+      "size_bytes": 2096058,
+      "sha256": "a2361e4a11f84a0d2ad0451c4013255de90f2d3d0fc3d842522fc1cbfe5c15c8"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\Order.csv",
+      "size_bytes": 1082751,
+      "sha256": "b84d61005d1dd261d29f53efa1dfae9b0e1c435f69f8cefc0429692e0823e87c"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\OrderLine.csv",
+      "size_bytes": 2161122,
+      "sha256": "17c07a88a2703b3fd38ca56655a3b56c059746ead36fac849629d48d0bf181a5"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\Payout.csv",
+      "size_bytes": 860423,
+      "sha256": "8cf0d756395880585d81e3fbed73c70305eb19e1350874ae4fe19a7ec74a9463"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\PayoutLine.csv",
+      "size_bytes": 3938335,
+      "sha256": "e7d2720cfca183c5374ddf54066a7b73ec7d5527fe93765c6306037a2e5d5c2f"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\ProductListing.csv",
+      "size_bytes": 212602,
+      "sha256": "ff46dd434564176efa335179bffd53079a86c89f71f94a4bd9d8a579abfaca21"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\Seller.csv",
+      "size_bytes": 21065,
+      "sha256": "332e3d206b0b87aa21e9fccef681d5b1626e38a981f9037b03ecf5e2441fdd47"
+    },
+    {
+      "path": "data\\generated\\starter\\csv\\StateChangeEvent.csv",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\CommissionRule.json",
+      "size_bytes": 1205,
+      "sha256": "6e06a25b7b7481735b020cdfa80aa580d21ae4a140672a7e34973451c022cca9"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\Customer.json",
+      "size_bytes": 5536753,
+      "sha256": "c0e6b66bab39d7b257eeab64cd0a8d513304b3a2f597f77b2b0ab94fb5e21aa8"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\CustomerReview.json",
+      "size_bytes": 1610408,
+      "sha256": "ad88be8e85d4cbb65479dd989ef6a7816b6d906f3f148a052e8141f797ae2a1b"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\Dispute.json",
+      "size_bytes": 350218,
+      "sha256": "f5aab3f271c80439a2f3480ef65de1ff2be32e49180e69fe690ec72f2d669641"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\Fulfillment.json",
+      "size_bytes": 4469134,
+      "sha256": "82f9d699e3a6118f8f1b0641e0d1c16d72c3d3597636e1b0dad44aec0186e3a6"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\FulfillmentLine.json",
+      "size_bytes": 4848579,
+      "sha256": "1f0612e2d44611de8063f24955521b66189fa426d02b2a7c224774378cee540b"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\Order.json",
+      "size_bytes": 2864774,
+      "sha256": "5bec9525428852c2e6e3747d60c61cc10bff5d98c667f2341d18fe133b25bc42"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\OrderLine.json",
+      "size_bytes": 6075264,
+      "sha256": "25e32d7642f6a3fc676c83ef32e2da3bc2b370b0b2fd4c4f075137c41367dd80"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\Payout.json",
+      "size_bytes": 2732340,
+      "sha256": "1168dbdf736533789038235c3c978c6a425cfbe7b287a28153824e88b57a21d6"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\PayoutLine.json",
+      "size_bytes": 11890220,
+      "sha256": "fd3f9d6c9f081b02df4f3c7d4b78048cee66f5b42a82d991f6096ecccbd1c79f"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\ProductListing.json",
+      "size_bytes": 560525,
+      "sha256": "670bbcf943d7bc165cf6ea7659f4682b7c7c2e21dcbf767fd436e5088ceb003b"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\Seller.json",
+      "size_bytes": 56984,
+      "sha256": "0e1a453f6bb60b786290e45fd3a070da4d05360a089450530ef98636b9bc969d"
+    },
+    {
+      "path": "data\\generated\\starter\\json\\StateChangeEvent.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "ground_truth\\ground_truth.csv",
+      "size_bytes": 1348,
+      "sha256": "ea2f6c20edbd03699833109789d34f1e7020def908cea1095d8a44220e04145c"
+    },
+    {
+      "path": "ground_truth\\ground_truth.json",
+      "size_bytes": 2611,
+      "sha256": "03b60b8f3c9e7d80e9f2485fca7eca3fb977d274f82615e79b9070ec478c81ad"
+    }
+  ]
+}

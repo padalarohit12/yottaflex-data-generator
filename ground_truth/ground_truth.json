@@ -1,0 +1,72 @@
+[
+  {
+    "ground_truth_id": "GT-000001",
+    "entity_type": "PayoutLine",
+    "entity_id": "PLN-2026-015287",
+    "issue_type": "PAYOUT_BEFORE_DELIVERY_HOLD",
+    "expected_decision": "REJECT_OR_HOLD",
+    "rule_ref": "HOLD_WINDOW_7_DAYS",
+    "explanation": "Payout line marked eligible before delivery/hold release period completed",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-000002",
+    "entity_type": "PayoutLine",
+    "entity_id": "PLN-2026-014809",
+    "issue_type": "COMMISSION_APPLIED_TWICE",
+    "expected_decision": "CORRECT_COMMISSION",
+    "rule_ref": "COMMISSION_RULE_SINGLE_APPLICATION",
+    "explanation": "Commission rate applied twice to same payout line",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-000003",
+    "entity_type": "Seller",
+    "entity_id": "SELL-000031",
+    "issue_type": "SUSPENDED_SELLER_CONTINUES_LISTING",
+    "expected_decision": "DEACTIVATE_LISTINGS",
+    "rule_ref": "SELLER_SUSPENSION_POLICY",
+    "explanation": "Suspended seller has active listings in violation of policy",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-000004",
+    "entity_type": "ProductListing",
+    "entity_id": "LIST-SELL-000031-000051",
+    "issue_type": "SUSPENDED_SELLER_CONTINUES_LISTING",
+    "expected_decision": "DEACTIVATE_LISTING",
+    "rule_ref": "SELLER_SUSPENSION_POLICY",
+    "explanation": "Listing from suspended seller SELL-000031 remains active",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-000005",
+    "entity_type": "ProductListing",
+    "entity_id": "LIST-SELL-000031-000520",
+    "issue_type": "SUSPENDED_SELLER_CONTINUES_LISTING",
+    "expected_decision": "DEACTIVATE_LISTING",
+    "rule_ref": "SELLER_SUSPENSION_POLICY",
+    "explanation": "Listing from suspended seller SELL-000031 remains active",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-000006",
+    "entity_type": "PayoutLine",
+    "entity_id": "PLN-2026-013294",
+    "issue_type": "DISPUTE_NOT_DEDUCTED",
+    "expected_decision": "DEDUCT_DISPUTE_AMOUNT",
+    "rule_ref": "DISPUTE_DEDUCTION_POLICY",
+    "explanation": "Dispute DSP-2026-000186 (CHARGEBACK) not deducted from payout",
+    "severity": "HIGH"
+  },
+  {
+    "ground_truth_id": "GT-000007",
+    "entity_type": "Payout",
+    "entity_id": "PAYOUT-2026-007445",
+    "issue_type": "PAYOUT_TOTAL_MISMATCH",
+    "expected_decision": "RECONCILE_TO_LINES",
+    "rule_ref": "PAYOUT_RECONCILIATION",
+    "explanation": "Payout.total_amount does not equal sum of PayoutLine.net_amount",
+    "severity": "HIGH"
+  }
+]
